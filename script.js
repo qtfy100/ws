@@ -116,3 +116,4 @@ function setWS() {
         console.log(evt);
     };
 }
+alert(/test/);
