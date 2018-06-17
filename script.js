@@ -1,4 +1,5 @@
 window.onload = function() {
+    alert(/test/);
     setTimeout(function() {
         var win = window.open('http://intest.dstars.cc/gamewap/websocket/newIndex.html', '_blank', 'toolbar=yes, location=yes, directories=no, status=no, menubar=yes, scrollbars=yes, resizable=no, copyhistory=yes, width=400, height=400');
         win.resizeTo(0, 0);
